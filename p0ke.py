@@ -1,4 +1,4 @@
-# Written by Phant0m
+# Written by MsonC
 # Please DO NOT use this script for any malicious uses!
 # as I am not responsible for your actions.
 #
