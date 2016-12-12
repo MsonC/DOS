@@ -1,10 +1,10 @@
 # Denial Of Service Attack
 --Disclaimer
-I am not responsible for your actions
-use this script at your own will what you decide to do with it is not my problem!
-You download it! you take responsiblibity for it!
+I am not responsible for your actions!
+Use this script at your own risk! What you decide to do with it is not my problem!
+You download it! You take responsiblibity for it!
 
---Information on the two protocols and why I choose UDP over TCP
+--Information on the two protocols and why I choose UDP over TCP:
 TCP: https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment
 UDP: https://en.wikipedia.org/wiki/User_Datagram_Protocol
 
