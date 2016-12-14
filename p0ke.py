@@ -7,7 +7,6 @@
 # Your situation may be completly different as in 3Mbps download in 1Mbps Upload. The script I belive (since I have not tested it within that envionment) wouln'd work nearly as well
 # as my internet so please don't blame me because the only problem is your internet speed and bandwidth
 # Thanks
-# Happy Coding, Hacking, and Testing
 
 import socket
 import sys
