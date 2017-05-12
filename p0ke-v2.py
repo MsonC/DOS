@@ -8,9 +8,8 @@
 # #  YOU DOWNLOAD IT! YOU TAKE RESPONSIBILITY FOR IT!
  # 
 # #  Your situation may be completly different as in 3Mbps download / 1Mbps Upload.
-# #  So please don't blame me because the only problem is your internet speed and bandwidth
- #   Thanks
-# #
+ #   So please don't blame me because the only problem is your internet speed and bandwidth
+# #  Thanks
 ###############
 
 import socket
