@@ -18,9 +18,12 @@ import threading
 import random
 import time
 
-# How to run the program - python p0ke.py   host packetlength "amount of loops"
-#                          python p0ke.py 192.168.1.1 1000 100000 
+####
+# 8 is the max amount of threads that i've used but i found for some odd reason that 1 thread works the best. even on a fast computer
+# How to run the program - python p0ke.py target  stringlen amountOfThreads
+#                          python p0ke.py 192.168.1.1 60000 1
 # Hit CTRL + Z to stop
+####
 
 host = sys.argv[1]
 packetLength = sys.argv[2]
